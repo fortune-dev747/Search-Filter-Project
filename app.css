@@ -11,3 +11,8 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+.search {
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 20px;
+}
