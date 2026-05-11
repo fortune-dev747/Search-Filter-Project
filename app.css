@@ -16,3 +16,11 @@
     width: 300px;
     margin-bottom: 20px;
 }
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    text-align: left;
+}
