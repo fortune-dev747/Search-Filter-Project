@@ -4,32 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="app.css">
-    <title>SEARCH FILTER</title>
+    <title>SEARCH BAR</title>
 </head>
 <body>
     <div class="search-container">
-        <label for="search" class="main-heading">SEARCH FILTER</label>
+        <label for="search" class="main-heading">SEARCH USERS</label>
         <input type="search" id="search" placeholder="Search...">
     </div>
-
-    <div class="user-cards">
+    <div class="user-cards" data-user-cards-container></div>
+    <template data-user-template>
         <div class="card">
             <div class="header">John Doe</div>
             <div class="body">email@gmail.com</div>
         </div>
-        <div class="card">
-            <div class="header">John Doe</div>
-            <div class="body">email@gmail.com</div>
-        </div>
-        <div class="card">
-            <div class="header">John Doe</div>
-            <div class="body">email@gmail.com</div>
-        </div>
-        <div class="card">
-            <div class="header">John Doe</div>
-            <div class="body">email@gmail.com</div>
-        </div>
-    </div>
+    </template>
 
     <!-- FOOTER -->
     <div>
