@@ -10,7 +10,8 @@ fetch('https://jsonplaceholder.typicode.com/users')
             const body = card.querySelector('[data-body]');
             header.textContent = user.name;
             body.textContent = user.email;
-            userCardsContainer.append(card);
+            userCardsContainer.append(card)
+            return { name: user.name, email: user.email, element: card };
         });
     });
 
