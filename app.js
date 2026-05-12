@@ -27,4 +27,17 @@ fetch('https://jsonplaceholder.typicode.com/users')
             user.element.classList.toggle('hide', !isVisible);
         });
     });
+
+
+    // MODAL POPUP
+const popup = document.getElementById('myModal');
+function openPopup() {
+        popup.style.display = "block";
+};
+
+window.addEventListener('load', openPopup());
+
+function closePopup() {
+    popup.style.display = "none";
+};
   
