@@ -4,7 +4,7 @@ const userCardTemplate = document.querySelector('[data-user-template]');
 fetch('https://jsonplaceholder.typicode.com/users')
     .then(response => response.json())
     .then(data => {
-        users.forEach(user => {
+        users = data.map(user => {
             const card = userCardTemplate.content.cloneNode(true).children[0];
             const header = card.querySelector('[data-header]');
             const body = card.querySelector('[data-body]');
