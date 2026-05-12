@@ -13,3 +13,6 @@ fetch('https://jsonplaceholder.typicode.com/users')
             userCardsContainer.appendChild(card);
         });
     });
+
+    // SEARCH FUNCTIONALITY
+ const searchInput = document.querySelector('[data-search]');
