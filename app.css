@@ -45,3 +45,10 @@ input {
 .hide {
     display: none;
 }
+
+.footer {
+    margin-top: 400px;
+    text-align: center;
+    font-size: 14px;
+    color: hsl(270, 100%, 60%);
+}
