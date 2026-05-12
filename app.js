@@ -18,3 +18,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
  const searchInput = document.querySelector('[data-search]');
 
  let users = [];
+
+    searchInput.addEventListener('input', e => {
+        const value = e.target.value.toLowerCase();
+    });
