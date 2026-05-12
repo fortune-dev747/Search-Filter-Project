@@ -15,6 +15,7 @@ input {
 .main-heading {
     font-size: 24px;
     margin-bottom: 20px;
+    color: darkviolet;
 }
 .user-cards {
     display: grid;

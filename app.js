@@ -1,6 +1,6 @@
 const userCardsContainer = document.querySelector('[data-user-cards-container]');
 const userCardTemplate = document.querySelector('[data-user-template]');
-
+// GETTING USER INFORMATION FROM API
 fetch('https://jsonplaceholder.typicode.com/users')
     .then(response => response.json())
     .then(data => {
