@@ -16,3 +16,5 @@ fetch('https://jsonplaceholder.typicode.com/users')
 
     // SEARCH FUNCTIONALITY
  const searchInput = document.querySelector('[data-search]');
+
+ let users = [];
