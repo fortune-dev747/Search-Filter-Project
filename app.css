@@ -17,9 +17,8 @@ input {
     margin-bottom: 20px;
 }
 .user-cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
 }
 .search {
     padding: 10px;
