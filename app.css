@@ -20,7 +20,7 @@ input {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     gap: .25rem;
-    margin: 1rem;
+    margin-top: 1rem;
 }
 .search {
     padding: 10px;
@@ -38,4 +38,6 @@ input {
 }
 .card > .body {
     font-family: Arial, sans-serif;
+    font-size: .8rem;
+    color: #777;
 }
