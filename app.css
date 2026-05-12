@@ -41,3 +41,7 @@ input {
     font-size: .8rem;
     color: #777;
 }
+
+.hide {
+    display: none;
+}
